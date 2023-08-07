@@ -16,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
         // Aqui temos um botão com o R para mapear
         formButton = findViewById(R.id.formButton);
         listButton = findViewById(R.id.listButton);
-        //qual o local que o botão ira levar
+        //Qual o local que o botão ira levar com o clique
         formButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openFormActivity();
             }
         });
-    
+        //Botão resposnsavel para reconhecer o clique o usuario e executando o metodo
         listButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

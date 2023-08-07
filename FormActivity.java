@@ -3,7 +3,7 @@ package intra.uninga.mobile;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+//Ativando o aplicativo android, seu ponto inicial é o FormActivity
 public class FormActivity extends AppCompatActivity {
 
     @Override
